@@ -1,8 +1,7 @@
 {
-  "name": "pro-hr-dashboard",
+  "name": "full-hr-dashboard",
   "private": true,
-  "version": "0.0.1",
-  "type": "module",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,7 +9,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "recharts": "^2.7.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
