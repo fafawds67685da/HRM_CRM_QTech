@@ -1,0 +1,49 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  min-height: 100vh;
+  /* Cool gradient + wallpaper background */
+  background: 
+    linear-gradient(135deg, rgba(224,234,252,0.92) 0%, rgba(207,222,243,0.92) 100%),
+    url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat fixed;
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 220px);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.home-btn {
+  padding: 1.5rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(90deg, #3498db 60%, #6dd5fa 100%);
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 6px 24px rgba(52, 152, 219, 0.15), 0 1.5px 4px rgba(0,0,0,0.04);
+  cursor: pointer;
+  transition: 
+    background 0.2s,
+    transform 0.2s,
+    box-shadow 0.2s,
+    filter 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  filter: brightness(0.98);
+}
+
+.home-btn:hover {
+  background: linear-gradient(90deg, #2980b9 60%, #3498db 100%);
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 12px 32px rgba(52, 152, 219, 0.22), 0 2px 8px rgba(0,0,0,0.06);
+  filter: brightness(1.03);
+}
