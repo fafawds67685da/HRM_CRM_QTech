@@ -1,0 +1,27 @@
+.deals-filter-bar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.deals-filter-bar select,
+.deals-filter-bar button {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.deals-filter-bar button {
+  background-color: #0a2540;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.deals-filter-bar button:hover {
+  background-color: #16375a;
+}

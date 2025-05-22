@@ -1,0 +1,31 @@
+.reports-container {
+  padding: 20px;
+}
+
+.reports-tabs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.reports-tabs button {
+  background: none;
+  border: 2px solid #0a2540;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #0a2540;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.reports-tabs button.active,
+.reports-tabs button:hover {
+  background-color: #0a2540;
+  color: white;
+}
+
+.reports-content {
+  min-height: 400px;
+}

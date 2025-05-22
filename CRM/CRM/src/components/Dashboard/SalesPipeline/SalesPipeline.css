@@ -1,0 +1,47 @@
+.pipeline-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pipeline-stage {
+  background-color: #ffffff;
+  flex: 1 1 150px;
+  min-width: 160px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.pipeline-stage:hover {
+  transform: translateY(-4px);
+}
+
+.stage-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stage-deals {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+.stage-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0a2540;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .pipeline-container {
+    flex-direction: column;
+  }
+}

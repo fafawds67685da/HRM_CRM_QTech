@@ -1,0 +1,30 @@
+.activities-page {
+  padding: 20px;
+}
+
+.activities-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.activities-header h2 {
+  font-size: 1.5rem;
+  color: #0a2540;
+}
+
+.activities-header button {
+  background-color: #0a2540;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.activities-header button:hover {
+  background-color: #16375a;
+}

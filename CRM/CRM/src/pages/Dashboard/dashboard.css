@@ -1,0 +1,30 @@
+.dashboard-container {
+  padding: 20px;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #0a2540;
+}
+
+.dashboard-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.recent-and-quick {
+  flex-wrap: nowrap;
+}
+
+/* Responsive layout tweaks */
+@media (max-width: 768px) {
+  .dashboard-section {
+    flex-direction: column;
+  }
+}

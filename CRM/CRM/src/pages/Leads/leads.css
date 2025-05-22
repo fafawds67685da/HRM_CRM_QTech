@@ -1,0 +1,77 @@
+.leads-page {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leads-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.leads-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0a2540;
+  margin: 0;
+  flex: 1 1 100%;
+}
+
+.leads-header-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex: 1 1 100%;
+}
+
+.lead-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #0a2540;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.lead-action-btn:hover {
+  background-color: #16375a;
+}
+
+.lead-action-btn.active {
+  background-color: #1e3a5f;
+}
+
+.leads-body {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 640px) {
+  .leads-header {
+    flex-wrap: nowrap;
+  }
+
+  .leads-header h1 {
+    flex: 0 0 auto;
+  }
+
+  .leads-header-actions {
+    flex: 1;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,60 @@
+.integrations-container {
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.integration-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.integration-card {
+  flex: 1 1 200px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.integration-card h4 {
+  margin-bottom: 8px;
+}
+
+.connect-btn,
+.disconnect-btn {
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.connect-btn {
+  background-color: #0a2540;
+  color: white;
+}
+
+.disconnect-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .integration-list {
+    flex-direction: column;
+  }
+
+  .integration-card {
+    width: 100%;
+  }
+}

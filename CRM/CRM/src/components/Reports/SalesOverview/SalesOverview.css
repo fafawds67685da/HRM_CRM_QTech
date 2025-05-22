@@ -1,0 +1,99 @@
+.sales-overview-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+}
+
+.kpi-cards {
+  display: flex;
+  gap: 24px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.kpi-card {
+  flex: 1 1 150px;
+  background: #0a2540;
+  color: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgb(10 37 64 / 0.3);
+}
+
+.kpi-card h3 {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.kpi-card p {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.funnel-chart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.funnel-chart li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.stage-name {
+  width: 120px;
+  font-weight: 600;
+  color: #0a2540;
+}
+
+.stage-count {
+  width: 60px;
+  text-align: right;
+  margin-right: 12px;
+  font-weight: 700;
+}
+
+.funnel-bar {
+  height: 20px;
+  background-color: #0a2540;
+  border-radius: 8px;
+  transition: width 0.5s ease;
+}
+
+.revenue-trend-chart {
+  margin-top: 30px;
+  text-align: center;
+  color: #555;
+  font-style: italic;
+}
+
+.charts-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.chart-section {
+  flex: 1 1 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.chart-section h3 {
+  margin-bottom: 15px;
+  color: #0a2540;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 900px) {
+  .charts-container {
+    flex-direction: column;
+  }
+}

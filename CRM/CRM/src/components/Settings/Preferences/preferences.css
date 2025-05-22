@@ -1,0 +1,40 @@
+.preferences-container {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.preferences-container h2 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: #0a2540;
+}
+
+.pref-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.pref-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.pref-group select,
+.pref-group input[type="checkbox"] {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.toggle-row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

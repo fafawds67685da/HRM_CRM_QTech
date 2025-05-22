@@ -1,0 +1,36 @@
+.deal-list-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.deal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #333;
+  min-width: 600px;
+}
+
+.deal-table thead {
+  background-color: #0a2540;
+  color: white;
+}
+
+.deal-table th,
+.deal-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.deal-table tbody tr:hover {
+  background-color: #f0f4f8;
+  cursor: pointer;
+}
+
+.no-deals {
+  font-style: italic;
+  color: #777;
+  margin-top: 30px;
+  text-align: center;
+}

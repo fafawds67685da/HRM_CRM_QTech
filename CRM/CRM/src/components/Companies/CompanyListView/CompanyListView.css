@@ -1,0 +1,34 @@
+.company-list-container {
+  overflow-x: auto;
+}
+
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #333;
+}
+
+.company-table thead {
+  background-color: #0a2540;
+  color: white;
+}
+
+.company-table th,
+.company-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.company-table tbody tr:hover {
+  background-color: #f0f4f8;
+  cursor: pointer;
+}
+
+.no-companies {
+  font-style: italic;
+  color: #777;
+  margin-top: 30px;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+.add-lead-form {
+  background-color: #ffffff;
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.add-lead-form h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #0a2540;
+}
+
+.add-lead-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.add-lead-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #333;
+}
+
+.add-lead-form input,
+.add-lead-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.save-btn {
+  background-color: #0a2540;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-btn {
+  background-color: #e2e8f0;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

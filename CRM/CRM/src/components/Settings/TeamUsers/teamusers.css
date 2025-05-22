@@ -1,0 +1,41 @@
+.team-users-container {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  margin: auto;
+}
+
+.team-users-container h2 {
+  margin-bottom: 20px;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th, .users-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.users-table th {
+  background-color: #f0f0f0;
+}
+
+.users-table button {
+  background-color: #0a2540;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.users-table button:hover {
+  background-color: #16375a;
+}

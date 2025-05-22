@@ -1,0 +1,65 @@
+.leads-list-view {
+  width: 100%;
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  padding: 16px;
+}
+
+.leads-list-view table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leads-list-view th,
+.leads-list-view td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.leads-list-view th {
+  background-color: #f9fafb;
+  font-size: 0.95rem;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.leads-list-view td {
+  font-size: 0.92rem;
+  color: #2d3748;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #718096;
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.view-btn {
+  background-color: #edf2f7;
+  color: #2d3748;
+}
+
+.edit-btn {
+  background-color: #bee3f8;
+  color: #2b6cb0;
+}
+
+.delete-btn {
+  background-color: #fed7d7;
+  color: #c53030;
+}
